@@ -5,3 +5,6 @@ This project investigates the performance difference of procedurally generating 
 and generates the terrain mesh using the marching cubes algorithm. The study concluded that the GPU is much faster at generating noise.
 However, some implementation details meant the GPU version was slower at drawing. For example, there were a lot of empty triangles being drawn on the GPU version as I did not know about
 geometry shaders. This basically tanks the FPS which is unfortunate but a possible improvement.
+
+## Building and Running
+This project includes a build.bat and a run.bat. Running these should build and then run the project.
